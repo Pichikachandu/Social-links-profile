@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--grey-900);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background-color: var(--grey-800);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.inner-border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img img {
+  border-radius: 50%;
+  width: 40%;
+  margin-left: 30%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: var(--white);
+  margin: 10px 0;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: var(--green);
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.desc {
+  color: gray;
+}
+
+ul.social-links {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+ul.social-links li {
+  margin: 10px 0;
+}
+
+ul.social-links li a {
+  display: block;
+  width: 95%;
+  text-align: center;
+  padding: 10px;
+  background-color: var(--grey-700);
+  color: var(--white);
+  border-radius: 7px;
+  text-decoration: none;
+}
+
+ul.social-links li a:hover {
+  background-color: var(--grey-900);
+}
